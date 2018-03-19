@@ -2,10 +2,10 @@
 
 ## Install dependencies
 
-`bundle install`
+`pip install -r requirements.text`
 
 ## Run the app
 
-Requires a redis instance to be running.
+The bot can be run in text mode for use in your console:
 
-`bundle exec lita`
+`errbot -T`
