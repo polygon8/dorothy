@@ -1,4 +1,4 @@
-# Dorothy bot
+# Polly bot
 
 ## Install dependencies
 
