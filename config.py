@@ -26,3 +26,12 @@ BOT_IDENTITY = {
 BOT_PREFIX_OPTIONAL_ON_CHAT = True
 BOT_ALT_PREFIXES = ('@polly',)
 CHATROOM_PRESENCE = ()
+
+BOT_EXTRA_STORAGE_PLUGINS_DIR = join(dirname(__file__), 'plugins/err-storage-redis') # noqa
+STORAGE = 'Redis'
+STORAGE_CONFIG = {
+    'host': os.getenv('REDIS_HOST', 'localhost'),
+    'port': os.getenv('REDIS_PORT', 6379),
+    'db': os.getenv('REDIS_DB', ''),
+    'password': os.getenv('REDIS_PASSWORD', ''),
+}
