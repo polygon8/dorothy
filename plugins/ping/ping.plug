@@ -1,0 +1,10 @@
+[Core]
+name = Ping
+module = ping
+
+[Documentation]
+description = pong
+
+[Python]
+version = 3
+
