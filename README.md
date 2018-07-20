@@ -1,4 +1,4 @@
-# Polly bot
+# Polyxena bot
 
 ## Install dependencies
 
